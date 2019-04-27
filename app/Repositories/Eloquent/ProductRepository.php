@@ -83,7 +83,7 @@ class ProductRepository implements ProductInterface
         if (isset($models['id'])) {
             $product = Product::find($models['id']);
 
-            if(!empty($models['old_image'])) {
+            if(!empty($models['image'])) {
                 $product->image = LaraHelpers::upload_image($filepath, $models['image'], $models['old_image']);
             }
         } else {

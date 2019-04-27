@@ -41,9 +41,9 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="col-sm-4 control-label">Email <span class="error">*</span></label>
+                                    <label class="col-sm-4 control-label">Email</label>
                                     <div class="col-sm-6 col-md-4">
-                                        <input type="text" name="email" id="email" placeholder="Email Address" class="form-control input-sm required email" value="{{$details->email}}" />
+                                        <input type="text" name="email" id="email" placeholder="Email Address" class="form-control input-sm email" value="{{$details->email}}" />
                                     </div>
                                 </div>
 

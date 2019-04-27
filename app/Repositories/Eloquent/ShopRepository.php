@@ -81,7 +81,7 @@ class ShopRepository implements ShopInterface
         if (isset($models['id'])) {
             $shop = Shop::find($models['id']);
 
-            if(!empty($models['old_logo'])) {
+            if(!empty($models['logo'])) {
                 $shop->logo = LaraHelpers::upload_image($filepath, $models['logo'], $models['old_logo']);
             }
         } else {
