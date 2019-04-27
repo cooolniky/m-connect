@@ -14,7 +14,7 @@ return [
     */
 
      //Translation of General words
-     'app_name' => 'Default',
+     'app_name' => 'M Connect',
      'change_password' => ':app_name | Change Password',
      'admin_home' => 'Dashboard',
      'management' => 'Management',
